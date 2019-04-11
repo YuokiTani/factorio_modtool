@@ -14,7 +14,8 @@ First steps
 2. import factorio.sql
 3. if needed change your login to the database in m_core.php
 4. extract at least one __Yuoki__.zip file in the directory
-5. use your browser to access the tool
+5. copy from factorio the base-directory into the folder and rename to __base__ to get access to original factorio-icons and gfx
+6. use your browser to access the tool
 
 Hints
 I used Netbeans to develop and write the code.
