@@ -1,0 +1,371 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07.08.2013, 07:49:49
+	changed	   : 05.04.2015	
+    Author     : sven.retter
+*/
+
+body {
+	font-family: "Maven Pro","Droid Sans Mono", monospace;
+	font-size: 10pt;
+	color: #cccccc;
+	background-color: #555555 ;		
+	margin-top: 36px;
+	margin-bottom: 36px;
+	margin-left: 16px;	
+}
+
+*:focus {
+	outline: 0px;
+	box-shadow: 0px 0px 8px cyan ;
+	border: 1px #a9a9a9 dotted;
+}
+input {
+	font-family: "Cabin Condensed","Maven Pro","Oxygen Mono","Lucida Sans Typewriter", monospace;
+	font-size: 9pt;
+	color: #404040;
+	background-color: #d5d5d5 ;			
+	border-radius: 4px;
+	border: 1px #a9a9a9 solid;
+	padding: 1px;
+	padding-left: 3px;
+}
+input:hover {
+	box-shadow: 0px 0px 6px black;	
+	background: linear-gradient(#f3f3d3 0%, #e0e0d0 30%, #f3f3d3 100% ) ;			 		
+}
+input:focus {
+	color: black;
+	box-shadow: 0px 0px 6px black;	
+	/*background-color: #f3f3f3 ;	*/
+	background: linear-gradient(#f3f3f3 0%, #e0e0e0 30%, #f3f3f3 100% ) ;			 		
+}
+
+
+*.eingabe {
+	font-family: "Maven Pro","Oxygen Mono","Lucida Sans Typewriter", monospace;
+	font-size: 9pt;
+	color: #606060;
+	background-color: #c5c5c5 ;			
+	border-radius: 4px;
+	border: 1px #a9a9a9 solid;	
+	padding: 0px;
+	padding-left: 2px;
+}
+*.eingabe:hover {
+	box-shadow: 0px 0px 6px black;	
+	background: linear-gradient(#f3f3d3 0%, #e0e0d0 30%, #f3f3d3 100% ) ;		 			
+}
+*.eingabe:focus {
+	color: black;
+	box-shadow: 0px 0px 6px black;	
+	
+	background: linear-gradient(#f3f3f3 0%, #e0e0e0 30%, #f3f3f3 100% ) ;			 		
+}
+
+*.ic { text-align: center; }
+
+*.clpurple {
+	background: #9f6f30;
+	margin: 1px;
+	padding: 2px;
+	border-radius: 5px;
+	border: #a0a0a0 solid 2px ; 	
+}
+*.clpurple:hover { 		
+	background: #88550f; 	
+	border: #cc66cc solid 2px ; 	
+	box-shadow: 0px 0px 8px #cc33cc;	
+}
+
+*.button {
+	font-family: "Telex", monospace;
+	color: #f5e5c5;
+	text-decoration: none;
+	margin: 2px;
+	padding: 3px;				
+	padding-left: 6px;
+	padding-right: 6px;
+	border: #474747 solid 1px;
+	border-radius: 4px;
+	/*box-shadow: #333333 1px 1px 2px ;		*/
+	background: linear-gradient(#333333 0%, #626262 30%, #444444 100% ) ;			 			
+	vertical-align: bottom;
+}
+*.button:hover {
+	color:  #ffcc66 ;	
+	border: #9f6f30 solid 1px;
+	box-shadow: darkorange 0px 0px 8px 1px ;		
+	background: linear-gradient(#66330f 0%, #99660f 30%, #66330f 100% ) ;			 				
+}
+
+*.footer {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	padding: 3px;
+	background-color: #333333 ;	
+	box-shadow: 0px 0px 6px black;
+	text-align: center;
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+*.header {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 24px;
+	padding: 3px;	
+	padding-top:8px;	
+	background-color: #333333 ;		
+	box-shadow: 0px 0px 6px black;	
+	font-family: "Maven Pro", "Electrolize", "Ubuntu Mono", monospace;
+	font-size: 12pt;		
+}
+
+a:link {	
+	color: #eebb55 ;	
+	text-decoration: none;
+	padding-left: 6px;
+	padding-right: 6px;
+	background-color: transparent;		
+}
+a:visited {	
+	color: #eebb55 ;	
+}
+a:hover {
+	color:  #ffcc66 ;
+	text-shadow: 1px 1px #353535;
+	text-decoration: underline;	
+	box-shadow: none;
+	background-color: transparent;		
+}
+
+a.but:link{	
+	color: burlywood ;
+	text-decoration: none;
+	margin: 2px;
+	padding: 3px;				
+	padding-left: 6px;
+	padding-right: 6px;
+	border-radius: 4px;
+	background-color: transparent;	
+}
+
+a.but-s:link{
+	color: whitesmoke;
+	text-decoration: none;
+	margin: 3px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 3px;				
+	padding-left: 6px;
+	padding-right: 6px;
+	border-radius: 4px;
+	background-color: #777777 ;	
+}
+a.but:visited{	
+	color: burlywood ;	
+}
+a.but-s:visited{	
+	color: whitesmoke ;	
+}
+
+a.but:hover {
+	color:  #ffcc66 ;
+	/* text-decoration: underline; */
+	box-shadow: darkorange 0px 3px 7px ;		
+	background-color: #88550f ;		
+}
+a.but-s:hover{	
+	color:  whitesmoke ;
+	text-shadow: 2px 2px #353535;
+    background-color: #666666 ;	
+}
+
+hr { border-color: #1f88bb; box-shadow: 0px 1px 5px #552200; }
+
+*.fehler {
+	background-color: #990000;
+	border: crimson dotted 2px;
+	border-radius: 4px;
+	padding:5px;
+	font-weight: bold;	
+	box-shadow: 0px 0px 5px chocolate ;	
+	color: #ffefdd;
+}
+
+*.erfolg {
+	background-color: #009900;
+	border: limegreen dotted 2px;
+	border-radius: 4px;
+	padding:5px;
+	font-weight: bold;	
+	box-shadow: 0px 0px 5px lightgreen ;	
+	color: #eeffee;
+}
+
+*.white {
+	background-color: #999999 ;
+	border: aliceblue dotted 2px;
+	border-radius: 4px;
+	padding:5px;
+	font-weight: bold;	
+	box-shadow: 0px 0px 5px gray ;	
+	color: #ffffff;
+}
+
+table {	 
+	table-layout: auto;
+	border-collapse: collapse;
+	padding: 5px;
+}
+
+table td {
+	
+}
+
+table th {
+	
+}
+
+
+table.lst {
+	font-family: "Cabin Condensed", sans-serif;
+	font-size: 14px; 
+	background-color: #696969;
+	box-shadow: 0px 0px 6px #333333;
+	border-radius: 5px;
+	padding: 2px;
+	color: #f0f0f0;
+}
+table.lst th {
+	background-color: #666666; 
+	padding: 1px;
+	border: #898989 solid 1px;	
+	border-radius: 3px;
+	color: #ffcc66 ;
+}
+table.lst th.thsp {
+	background-color: #666699 ;	
+	border: #bbbbbb solid 1px;		
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;		
+}
+table.lst td {		
+	padding: 1px;
+	padding-left: 4px;
+	padding-right:  4px;
+	border: #888888 solid 1px;	
+	border-radius: 3px;	
+	vertical-align: middle;
+}
+table.lst td.hl {		
+	padding: 1px;
+	padding-left: 4px;
+	padding-right:  4px;
+	border: #999999 solid 1px;	
+	border-radius: 3px;	
+	vertical-align: middle;
+	background: linear-gradient(345deg, #606060 0%, #804020 50%, #606060 100%);	
+}
+
+table.lst tr.red {	
+	background: linear-gradient(#707070 0%, #907070 50%, #707070 100%);	
+}
+table.lst tr.green {	
+	background: linear-gradient(#707070 0%, #709070 50%, #707070 100%);	
+}
+
+table.lst tr {	
+	background-color: #717171;	
+	padding: 0px;
+}
+table.lst tr:hover {
+	background: linear-gradient(#707070 0%, #606060 30%, #707070 100% ) ;		
+}
+ 
+*.small {
+	font-family: "Cabin Condensed", sans-serif;
+	font-size: 11pt;
+}
+*.cnds {
+	font-family: "Cabin Condensed", "Droid Sans", sans-serif;
+	font-size: 11pt;
+	font-weight: normal;
+}
+
+*.mono {
+	font-family: "Source Code Pro", monospace;
+	font-size: 10pt;
+	font-weight: normal;
+}
+*.gray {
+	color: #afafaf;
+}
+*.yellow {
+	color: yellow;
+}
+*.green {
+	color: greenyellow;
+}
+
+*.sright {
+	position: fixed;
+	right: 0px;
+	font-size: 10pt;
+	padding-top: 3px;
+}
+*.title {		
+	padding-top: 12px;
+	font-size: 13pt;	
+	color: whitesmoke;
+	font-family: "Ubuntu Mono","Maven Pro","Droid Sans Mono", monospace;
+}
+
+pre {
+	font-family: "Oxygen Mono","Droid Sans Mono", monospace;
+	font-size: 11pt;
+	color: #dfdfdf;	
+}
+
+*.size9 {
+	font-size: 9pt;
+}
+
+*.img {
+	padding: 1px;
+}
+
+*.imgbut {
+	border: 0px;
+	background: transparent;
+	padding: 0px;
+}
+
+*.imgbut:hover {
+	padding: 0px;
+	box-shadow: 0px 0px 6px 1px #ffcc44 ;
+	border-radius: 2px;
+}
+
+*.flow{
+	float: left; 
+}
+
+*.frame {
+	/*border: aliceblue dotted 1px;*/
+	border-radius: 4px;
+	margin-top: 6px;
+	padding:5px;	
+	box-shadow: 0px 0px 6px #222222 ;	
+	color: #898989;
+	background-color: #3f3f3f ;	
+}

@@ -1,0 +1,362 @@
+
+body {
+	background-color:#afafaf;
+	color:#2f2f2f;
+	font-family: Tahoma, sans-serif;
+	font-size: 13px;
+}
+
+*:focus {
+    outline:none;
+}
+
+*.eingabe {
+    border:1px solid #9f9f9f; 
+    border-radius: 3px;
+    background-color: #d9d9d9; 
+    color: #4f4f4f; 
+    text-align:center; 
+    font-family: monospace; 
+    font-size: 10pt}
+
+*.eingabe:focus {
+    color: #000020;
+    box-shadow: #0f4fcf 0px 0px 5px 0px;
+    background-color: #efefef; 
+}
+
+*.cnds {
+    font-family: "FrancophilSans", "DejaVu Serif Condensed",sans-serif;
+}
+*.mono {
+    font-family: "Source Code Pro","Droid Sans Mono",monospace;
+}
+
+*.red {
+    font-size: 15px;   
+    color: #303030;
+    background: #FFAAAA;
+    font-family: "Droid Sans",monospace;
+}
+*.green {
+    font-size: 15px;   
+    color: #303030;
+    background: #CCFFCC;
+    font-family: "Droid Sans",monospace;
+}
+
+*.yellow {
+    font-size: 15px;   
+    color: #303030;
+    background: #FFFF9A;
+    font-family: "Droid Sans",monospace;
+}
+*.neutral {    
+    font-size: 15px;  
+    color: #303030;
+    background: #dfdfdf;
+    font-family: "Droid Sans",monospace;
+}
+*.li {
+	text-align:left;
+}
+*.re {
+	text-align:right;
+}
+
+
+table {
+	border: 1px solid;
+	border-radius: 8px;	
+	background-color: #dddddd;
+	font-family: "Droid Sans",Tahoma,Arial,Helvetica,sans-serif;
+	font-size: 14px;	
+	padding: 3px;
+}
+th {	
+	text-shadow: #aaaaaa 1pt 1pt;	
+	border-collapse: collapse;
+	padding: 0px; padding-left: 4px; padding-right: 4px;	
+}
+td { 
+	border: 0px;
+	border-collapse: collapse;
+	padding: 1px; padding-left: 4px; padding-right: 4px;	
+}
+
+
+img { border: 0px; padding-left: 2px; padding-right: 2px; vertical-align: middle;  }
+img.hp { border: 0px; padding-left: 0px; padding-right: 0px; vertical-align: middle; background: #2f2f2f;}
+img.icon {border: 0px; padding-left: 0px; padding-right: 0px; vertical-align: middle; background: #2f2f2f;}
+
+img.link:hover { box-shadow: #ffffff 0px 0px 5px 3px inset; border-radius: 6px; }
+
+
+button {
+    padding: 1px;
+}
+button:hover {
+    box-shadow: #22ffff 0px 0px 8px 0px;
+}
+
+input.input_1 {border:1px; border-bottom: 1px dotted #FF0000; background-color: transparent; color: #960000; font-weight:bolder; text-align:center; border-radius: 4px; }
+input.input_1:focus { box-shadow: #77dd77 0px 0px 8px inset;}
+input.input_3 {border:0px; border-bottom: 1px dotted #0000CC; background-color: transparent; color: #222255; text-align:center; font-family: 'Trebuchet MS'; border-radius: 4px; }
+input.input_3:focus { box-shadow: #77dd77 0px 0px 8px inset;}
+
+
+input.inli { border:1px solid #b8b8b8; background-color: #FFFFEE; color: #222222; font-size: 10pt; padding: 1px; padding-left: 4px;}
+input.inli:focus {outline: #2288dd solid 2px; background-color: #FFf3aa; }
+
+
+input.input_6 {border:1px solid #FF0000; background-color: #FFcc00; color: #000000; text-align:center; font-family: monospace; font-size: 10pt}
+input.input_6:focus {border:1px solid #888888; outline: #2288dd solid 2px; background-color: #FFf3aa; }
+input.input_7 {border:1px solid #b8b8b8; background-color: #FFFFEE; color: #000000; text-align:center; font-family: monospace; font-size: 10pt}
+input.input_7:focus {outline: #2299ee solid 2px; background-color: #FFf3aa; }
+
+/*fixed size*/
+input.stdbut {
+    width: 100px;
+    font-size: 14px;    
+    font-family: "Myriad Pro", sans-serif;
+}
+input.stdbut:hover{
+	box-shadow: #cf5f0f 0px 0px 8px 0px;
+}
+/*non-fixed size*/
+input.std {    
+    font-size: 14px;    
+    font-family: "Myriad Pro", sans-serif;
+}
+input.std:hover{
+	box-shadow: #cf5f0f 0px 0px 8px 0px;
+}
+
+
+
+textarea {border:0px; background-color: transparent; color: #2f2f2f; }
+
+button.pic {
+	border: 0px;
+	background: transparent;
+	padding: 0px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+table.red {
+    border-width:1px;
+    border-style:solid;
+    border-color:#AA0000;
+}
+table.green {
+    border-width:1px;
+    border-style:solid;
+    border-color:#00AA00;
+}
+
+a		{ color:#0000AA; text-decoration:none; font-size: 14px; font-family: "Droid Sans","Euphemia",sans-serif;}
+a:hover	{ color:#005FDF; text-decoration:underline;}
+
+a.a1{
+	color:#BB0000;
+	text-decoration:none;
+}
+a.a1:hover{
+	color:#FF0000;
+	text-decoration:none;
+}
+
+a.a2{
+	color:#CFA010;	
+	text-decoration:none;
+}
+a.a2:hover{
+	color:#33CC33;
+	text-decoration:none;
+}
+
+a.a3{ color:#DFDFDF; text-decoration:none; font-weight:bold; }
+a.a3:hover{	color:#0000BF;	text-decoration:underline;	font-weight:bold;}
+
+a.a4{ color:#000069; text-decoration:none; font-variant: small-caps}
+a.a4:hover{	color:#FF0000;	text-decoration:underline; font-variant: small-caps}
+
+div.green { 
+	background: #555555;
+	color: #00CC00;
+	padding: 2px;
+	text-shadow: #222222 2px 2px;
+}
+div.red { 
+	background: #333333;
+	color: #ea4444;
+	padding: 2px;
+	text-shadow: #222222 2px 2px;
+}
+div.orange { 
+	background: #555555;
+	color: #EEAA00;
+	padding: 2px;
+	text-shadow: #222222 2px 2px;
+}
+div.white { 
+	background: #555555;
+	color: #EEEEEE;
+	padding: 2px;
+	text-shadow: #222222 2px 2px;
+}
+div.blue { 
+	background: #333333;
+	color: #0088ff;
+	padding: 2px;
+	text-shadow: #000000 2px 2px;
+}
+div.lila { 
+	background: #333333;
+	color: #CC00FF;
+	padding: 2px;
+	text-shadow: #222222 -2px -2px;
+}
+
+table.info {
+    background:	#ACACAC;
+    border-width: 0px;
+    border-style: solid;
+    border-color: #000000;    
+}
+table.info th {
+    height:20px;
+}
+table.info td{
+	font-family: "Lucida Grande","Levenim MT","Kalinga",Geneva,Arial,Helvetica,sans-serif;
+	font-size: 10pt;
+	height:20px;
+    padding:2px;
+}
+
+table.light1 {
+	background-color:#DFDFDF;
+	border-width: 0px;    
+	padding: 1px; padding-left: 4px; padding-right: 4px;		
+	empty-cells: hide;
+    border-collapse: collapse;
+}
+table.light1 th{
+	background-color:#bfbfbf;
+	border: #888888 solid 1px;	
+	padding: 1px; padding-left: 4px; padding-right: 4px;
+	color:#2f2f2f;
+}
+table.light1 tr:hover {
+    background-color:#d9d9df;
+}
+table.light1 td {
+	background-color:transparent;
+    border: #888888 solid 1px;
+	padding: 1px; padding-left: 4px; padding-right: 4px;
+	color:#2f2f2f;    
+}
+
+table.light2 {
+	background-color:#AAAAAA;
+	border-width:1px;
+	padding: 1px; padding-left: 4px; padding-right: 4px;	
+	border-style:solid;
+	border-color:#000000;
+	border-top-color:#484848;
+	border-left-color:#666666;
+	font-family: Geneva,Arial,Helvetica,sans-serif;
+	
+}
+table.light2 th{
+	background-color:#999999;
+	padding: 1px; padding-left: 4px; padding-right: 4px;	
+	color:#000000;
+	border-width:0px;
+	border-style:solid;
+	border-top-color:#282828;
+	border-right-color:#282828;
+	border-bottom-color:#444444;
+	border-left-color:#444444;
+}
+table.light2 td {
+	padding: 1px; padding-left: 4px; padding-right: 4px;	
+	color:#222222;
+	border-width:0px;
+	border-style:solid;
+	border-top-color:#444444;
+	border-right-color:#444444;
+	border-bottom-color:#282828;
+	border-left-color:#282828;
+}
+
+table.light3 {
+	border: 1px solid #CCCCCC;
+	border-radius: 8px;	
+	background-color:#AFAFAF;	
+	font-family: Geneva,Arial,Helvetica,sans-serif;		
+	padding: 3px;
+	/*border-collapse: collapse;*/
+	empty-cells: hide;	
+}
+table.light3 th {	
+	text-shadow: #aaaaaa 1pt 1pt;	
+	border-collapse: collapse;
+	background-color: #999999;
+	border: 0px silver solid;	
+	padding: 1px; padding-left: 4px; padding-right: 4px;	
+	color:#000000;    
+	font-family: "Droid Sans", sans-serif;
+}
+table.light3 td { 
+	/*background-color:#DFDFDF;*/
+	border: 0px silver solid; 
+	border-collapse: collapse;
+	padding: 1px; padding-left: 4px; padding-right: 4px;	
+}
+table.light3 tr {
+	background-color: #DFDFDF;
+	/*background: url("verlauf_lightgray.png");*/
+}
+table.light3 tr:hover {
+	background-color: #fff3aa;
+	/*background: url("verlauf_cyan.png");*/
+	background: url("_gfx/verlauf_20hgray.png");
+	color: #0000CC;
+}
+
+
+table.light4 {
+	background-color:#AFAFAF;
+	border-width:1px;
+	padding: 1px; padding-left: 4px; padding-right: 4px;	
+	border-spacing: 1px;
+	border-collapse: collapse;
+	empty-cells: show;
+	border-style: solid;
+	border-color: #CCCCCC;	
+}
+table.light4 th{
+	background-color:#999999;
+	border-width:1px;
+	border-style:solid;
+	padding: 1px; padding-left: 4px; padding-right: 4px;	
+	color:#000000;
+}
+table.light4 td {
+	padding: 1px; padding-left: 4px; padding-right: 4px;	
+	color:#000000;
+	border-width:1px;
+	border-style:solid;
+    border-right-color: #999999;
+    border-left-color: #999999;
+    border-bottom-color: #999999;
+    border-top-color: #999999;
+    border-collapse: collapse;
+    empty-cells: show;
+}
+
+
+
+

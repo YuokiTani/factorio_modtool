@@ -1,0 +1,61 @@
+body {			
+	font-family: "Segoe UI Semibold",sans-serif;
+	font-size: 12pt;
+	background-color: azure;	
+}
+
+*:focus { 
+	outline: 0px; 
+	box-shadow: 0px 0px 6px dodgerblue;
+}
+
+a:link {color: #000088; text-decoration: none; font-size:9pt; font-weight: bold}
+a:visited {color: #000088; text-decoration: none; font-size:9pt; font-weight: bold} 
+a:hover {color: #DD1111; text-decoration: underline; font-size:9pt; font-weight: bold;}
+p {	font-family: Arial, sans-serif; font-size:9pt; font-weight: bold}
+
+.mono { 
+	font-family: "Consolas","Lucida Sans Typewriter",monospace;	
+	box-shadow: 0px 0px 4px darkslategray;	
+	color: darkslategray;
+	padding: 3px;
+	border-radius: 2px;	
+	background-color: whitesmoke;
+}
+
+
+#blue {
+	color: blue;	
+	font-size: 10.5pt;	
+}
+#red {
+	color: red;	
+	font-size: 10.5pt;	
+}
+
+input {
+	font-family: "Lucida Sans Typewriter", monospace; 
+	font-size: 11pt; 
+	text-align: center; 
+	border-radius: 4px;
+	border: darkgrey solid 1px;
+}
+
+table {	
+	border: grey solid 1px;
+	border-radius: 8px; 	
+	empty-cells:show;
+	padding: 4px;
+	background-color: whitesmoke;
+}
+td {			
+	padding: 1px;			
+}
+th {
+	background-color: #ededed;	
+	border: grey solid 1px;
+	padding: 3px;
+	font-size: 13pt;	
+}
+
+

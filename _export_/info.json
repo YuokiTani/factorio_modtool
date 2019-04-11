@@ -1,0 +1,10 @@
+
+{
+"name": "yuoki",
+"title": "Yuoki Industries",
+"version": "0.2.34",
+"date": "2015-08-16",
+"author": "Yuoki Tani",
+"dependencies": ["base >= 0.12"],
+"description": "no progression stuff"
+}

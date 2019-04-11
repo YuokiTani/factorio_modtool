@@ -1,0 +1,225 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07.08.2013, 07:49:49
+    Author     : sven.retter
+*/
+
+body {
+	font-family: "Droid Sans Mono", monospace;
+	font-size: 14px;
+	color: #4f3f2f;
+	background-color: #f5e5c5 ;		
+	margin-top: 36px;
+	margin-left: 16px;
+}
+
+*:focus {
+	outline: 0px;
+	box-shadow: 0px 0px 6px dodgerblue;
+	border: 1px bisque dotted;
+}
+input {
+	font-family: "Lucida Sans Typewriter", monospace;
+	font-size: 10.5pt;
+	color: #333333;
+	background-color: #e4b88c ;			
+	border-radius: 4px;
+	border: 1px #88550f solid;
+	padding: 3px;
+}
+input:hover {
+	box-shadow: 0px 0px 6px darkorange;
+	background-color: whitesmoke;
+}
+input:focus {
+	box-shadow: 0px 0px 6px darkorange;
+	background-color: whitesmoke;
+}
+
+*.ic { text-align: center; }
+
+*.clpurple {
+	background: #9f6f30;
+	margin: 1px;
+	padding: 2px;
+	border-radius: 5px;
+	border: #a0a0a0 solid 2px ; 	
+}
+*.clpurple:hover { 		
+	background: #88550f; 	
+	border: #cc66cc solid 2px ; 	
+	box-shadow: 0px 0px 8px #cc33cc;	
+}
+
+input.button {
+	color: #f5e5c5;
+	text-decoration: none;
+	margin: 2px;
+	padding: 3px;				
+	padding-left: 6px;
+	padding-right: 6px;
+	border: #88550f solid 1px;
+	border-radius: 4px;
+	background-color: #9f6f30;	
+}
+input.button:hover {
+	color:  #ffcc66 ;	
+	border: #9f6f30 solid 1px;
+	box-shadow: darkorange 0px 2px 8px 1px ;		
+	background-color: #88550f ;		
+}
+
+*.footer {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	padding: 3px;
+	background-color: #9f6f30 ;	
+	box-shadow: 0px 0px 6px black;
+	text-align: center;
+	font-size: 12px;
+}
+
+*.header {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 18px;
+	padding: 3px;	
+	padding-top:8px;	
+	background-color: #9f6f30 ;		
+	box-shadow: 0px 0px 6px black;	
+}
+
+a:link{
+	color: burlywood;
+	text-decoration: none;
+	margin: 2px;
+	padding: 3px;				
+	padding-left: 6px;
+	padding-right: 6px;
+	border-radius: 4px;
+	background-color: transparent;	
+}
+a:visited{
+	color: burlywood ;	
+}
+a:hover {
+	color:  #ffcc66 ;
+	/* text-decoration: underline; */
+	box-shadow: darkorange 0px 3px 7px ;		
+	background-color: #88550f ;		
+}
+hr { border-color: #1f88bb; box-shadow: 0px 1px 5px #552200; }
+
+*.fehler {
+	background-color: #ffcccc;
+	border: crimson dotted 2px;
+	border-radius: 4px;
+	padding:5px;
+	font-weight: bold;	
+	box-shadow: 0px 0px 5px chocolate ;	
+}
+
+*.erfolg {
+	background-color: #ccffcc;
+	border: limegreen dotted 2px;
+	border-radius: 4px;
+	padding:5px;
+	font-weight: bold;	
+	box-shadow: 0px 0px 5px lightgreen ;	
+}
+
+*.white {
+	background-color: aliceblue ;
+	border: gray dotted 2px;
+	border-radius: 4px;
+	padding:5px;
+	font-weight: bold;	
+	box-shadow: 0px 0px 5px gray ;	
+}
+
+table {
+	border-collapse: collapse;
+	padding: 5px;
+}
+
+table.forms {
+	font-size: 10pt; 
+	background-color: #88550f;
+	box-shadow: 0px 0px 6px #88550f;
+	border-radius: 5px;
+	padding: 4px;				
+}
+table.forms th {
+	background-color: #e4b88c; 
+	padding: 2px;
+	border: #e4b88c solid 1px;	
+	border-radius: 3px;
+}
+table.forms th.thsp {
+	background-color: seashell ;	
+	border: #e4b88c solid 1px;		
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;	
+}
+table.forms td {		
+	padding: 2px;
+	border: #e4b88c solid 1px;		
+}
+table.forms tr {	
+	background-color: #fff2d6;	
+	padding: 0px;
+}
+table.forms tr:hover {
+	background-color: #eed0b0;		
+}
+
+
+table.lst {
+	font-size: 10pt; 
+	background-color: cornsilk;
+	box-shadow: 0px 0px 6px #333333;
+	border-radius: 5px;
+	padding: 4px;			
+}
+table.lst th {
+	background-color: honeydew; 
+	padding: 2px;
+	border: #cccccc solid 1px;	
+	border-radius: 3px;
+}
+table.lst th.thsp {
+	background-color: seashell ;	
+	border: #bbbbbb solid 1px;		
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;	
+}
+table.lst td {		
+	padding: 2px;
+	border: #dddddd solid 1px;	
+	border-radius: 3px;	
+}
+table.lst tr {	
+	background-color: ghostwhite;	
+	padding: 0px;
+}
+table.lst tr:hover {
+	background-color:  lightgoldenrodyellow;		
+}
+ 
+*.small {
+	font-family: "Arial", sans-serif;
+	font-size: 9pt;
+}
+
+*.sright {
+	position: fixed;
+	right: 0px;
+}
